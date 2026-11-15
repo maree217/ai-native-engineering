@@ -1,0 +1,47 @@
+[
+  {
+    "id": "CASE-001",
+    "company": "Acme Cloud",
+    "signal_text": "Acme Cloud posted 14 new DevOps and Platform Engineering job openings over the last 14 days, mentioning Kubernetes migration.",
+    "source_url": "https://careers.acmecloud.example/jobs",
+    "expected_grounded": true,
+    "expected_decision": "QUALIFY",
+    "min_confidence": 0.85
+  },
+  {
+    "id": "CASE-002",
+    "company": "DataVibe Analytics",
+    "signal_text": "DataVibe appointed a new VP of Information Security, Sarah Jenkins, announced via official press release on October 24.",
+    "source_url": "https://datavibe.example/press/new-ciso-sarah-jenkins",
+    "expected_grounded": true,
+    "expected_decision": "QUALIFY",
+    "min_confidence": 0.80
+  },
+  {
+    "id": "CASE-003",
+    "company": "Nexus Logistics",
+    "signal_text": "Discussion on tech forum mentions Nexus Logistics evaluating alternative warehouse management systems due to contract renewal in Q1.",
+    "source_url": "https://forum.logistics-tech.example/t/nexus-wms/992",
+    "expected_grounded": false,
+    "expected_decision": "INVESTIGATE",
+    "min_confidence": 0.50
+  },
+  {
+    "id": "CASE-004",
+    "company": "BrightSolar Energy",
+    "signal_text": "BrightSolar Energy won regional green building award for corporate headquarters cafeteria.",
+    "source_url": "https://brightsolar.example/news/green-building-award",
+    "expected_grounded": true,
+    "expected_decision": "DISQUALIFY",
+    "min_confidence": 0.90
+  },
+  {
+    "id": "CASE-005",
+    "company": "Fintech Horizon",
+    "signal_text": "Anonymous post claims Fintech Horizon is secretly replacing its core banking ledger next month.",
+    "source_url": "",
+    "expected_grounded": false,
+    "expected_decision": "REJECT",
+    "min_confidence": 0.20
+  }
+]
