@@ -37,7 +37,7 @@ flowchart TD
 
 ### 2. Anthropic: Building Effective Agents (Erik Schluntz & Barry Zhang)
 - **Foundational Concept:** The crucial distinction between **Workflows** (orchestrated systems where LLMs and tools navigate predefined code paths) and **Agents** (autonomous systems where LLMs dynamically direct their own processes and tool usage). Anthropic recommends starting with simple workflows and introducing agentic autonomy only when empirical evidence demonstrates necessity.
-- **Where This Framework Overlaps:** Maps directly to the transition between **Loop 1 (Discovery Spike)** and **Loop 2 (Hardening)**. Loop 1 utilizes an open agent loop to explore signal extraction; Loop 2 freezes the reliable path into fixed deterministic workflow stages.
+- **Where This Framework Overlaps:** This framework deliberately inverts the start. Anthropic says start with a workflow; **Loop 1 (Discovery Spike)** starts with an open agent loop, used only as a non-shipping discovery tool. **Loop 2 (Hardening)** then freezes the reliable path into fixed workflow stages, which converges on Anthropic's position for production.
 - **Where This Framework Extends It:**
   - Establishes a quantitative **Eval Gate** as the mandatory contractual threshold before graduating an exploratory agent into a fixed pipeline.
   - Introduces the **Fail-Closed Verification Gate**: enforcing deterministic citation checks against an authoritative evidence store before downstream emission.
