@@ -1,9 +1,9 @@
 # AI-Native Engineering Framework
-**By Ram Senthil-Maree ([@RSM](https://github.com/RSM))**
+**By Ram Senthil-Maree ([@maree217](https://github.com/maree217))**
 
 An architectural, eval-driven framework for engineering reliable, production-grade AI systems inside organizations.
 
-[![CI](https://github.com/RSM/ai-native-engineering/actions/workflows/ci.yml/badge.svg)](.github/workflows/ci.yml)
+[![CI](https://github.com/maree217/ai-native-engineering/actions/workflows/ci.yml/badge.svg)](https://github.com/maree217/ai-native-engineering/actions/workflows/ci.yml)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 [![Python 3.11+](https://img.shields.io/badge/python-3.11%20%7C%203.12-blue.svg)](https://www.python.org/)
 
